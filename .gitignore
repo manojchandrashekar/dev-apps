@@ -1,0 +1,13 @@
+# Portainer
+portainer/portainer-data/**/*
+!portainer/portainer-data/.gitkeep
+
+# Verdaccio
+verdaccio/conf/**/*
+!verdaccio/conf/.gitkeep
+!verdaccio/conf/config.yaml
+verdaccio/storage/**/*
+!verdaccio/storage/.gitkeep
+verdaccio/plugins/**/*
+!verdaccio/plugins/.gitkeep
+

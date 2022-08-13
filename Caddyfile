@@ -1,0 +1,9 @@
+https://portainer.dd {
+	reverse_proxy localhost:9000
+	tls internal
+}
+
+https://npm.dd {
+	reverse_proxy localhost:4873
+	tls internal
+}
